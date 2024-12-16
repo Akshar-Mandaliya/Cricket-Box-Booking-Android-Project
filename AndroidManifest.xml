@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Cricket"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Akshar"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".demo"
+            android:exported="false" />
+        <activity
+            android:name=".qrcode"
+            android:exported="false" />
+        <activity
+            android:name=".choosepayment"
+            android:exported="false" />
+        <activity
+            android:name=".lastactivity"
+            android:exported="false" />
+        <activity
+            android:name=".vadodarasecondinfo"
+            android:exported="false" />
+        <activity
+            android:name=".vadodarafirstinfo"
+            android:exported="false" />
+        <activity
+            android:name=".vadodarafirst"
+            android:exported="false" />
+        <activity
+            android:name=".morbisecondinfo"
+            android:exported="false" />
+        <activity
+            android:name=".morbifirstinfo"
+            android:exported="false" />
+        <activity
+            android:name=".morbifirst"
+            android:exported="false" />
+        <activity
+            android:name=".suratsecondinfo"
+            android:exported="false" />
+        <activity
+            android:name=".suratfirstinfo"
+            android:exported="false" />
+        <activity
+            android:name=".suratfirst"
+            android:exported="false" />
+        <activity
+            android:name=".ahmadabadsecondinfo"
+            android:exported="false" />
+        <activity
+            android:name=".ahmadabadfirstinfo"
+            android:exported="false" />
+        <activity
+            android:name=".ahmadabadfirst"
+            android:exported="false" />
+        <activity
+            android:name=".rajkotsecondinfo"
+            android:exported="false" />
+        <activity
+            android:name=".rajkotfirstinfo"
+            android:exported="false" />
+        <activity
+            android:name=".surendranagarsecondinfo"
+            android:exported="false" />
+        <activity
+            android:name=".credit"
+            android:exported="false" />
+        <activity
+            android:name=".computer"
+            android:exported="false" />
+        <activity
+            android:name=".my"
+            android:exported="false" />
+        <activity
+            android:name=".surefibook"
+            android:exported="false" />
+        <activity
+            android:name=".surendranagarfirstreview"
+            android:exported="false" />
+        <activity
+            android:name=".surendranagaefirstbook"
+            android:exported="false" />
+        <activity
+            android:name=".surendranagarfirstinfo"
+            android:exported="false" />
+        <activity
+            android:name=".surendranagarfirstbook"
+            android:exported="false" />
+        <activity
+            android:name=".payment"
+            android:exported="false" />
+        <activity
+            android:name=".review"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".booking"
+            android:exported="false" />
+        <activity
+            android:name=".surendranagarinfofirst"
+            android:exported="false" />
+        <activity
+            android:name=".rajkotfirst"
+            android:exported="false" />
+        <activity
+            android:name=".surendranagarsecond"
+            android:exported="false" />
+        <activity
+            android:name=".surendranagarfirst"
+            android:exported="false" />
+        <activity
+            android:name=".thirdactivity"
+            android:exported="false" />
+        <activity
+            android:name=".secondactivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
